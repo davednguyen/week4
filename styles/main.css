@@ -1,0 +1,97 @@
+/**
+body{
+  background-color: white;
+}
+header h1{
+  text-align: center;
+  color: purple; 
+  margin: 1rem;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  background-color:purple;  
+  width: 14%;
+  height: 2em;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 1em;
+}
+
+nav ul{
+  width: 100%;
+  background-color: black;
+}
+
+aside{
+   width:2rm;
+   float: left;
+}
+
+aside ul li{
+ display: block;
+ width:15rem;
+ background-color: plum;
+ height: 3rem;
+ border-style: solid;
+ border-bottom-color: white;
+ color: white;
+ text-align: center;
+ padding-top: 1rem;
+ float: left;
+}
+
+article {
+  display: inline-block;
+  background-color: aqua;
+  width:auto;
+  align-content: center;
+}
+
+footer{
+  width: 100%;
+  align-content: center;  
+}
+
+footer a{
+  float: left;
+}
+**/
+
+body {
+  
+  /* change background, and set global font*/
+}
+
+header h1 {
+  /*make bigger and color**/
+  
+}
+
+.main-nav{
+  /** chang background color, remove bulltets, border each list nav element, center , float the link, center the content within the links, width on links, font color, **/
+}
+
+aside{
+  /**clear the float-both, background color, float-left, clearfloat bothside **/
+}
+
+aside ul {
+  /*clear both*/
+}
+
+article {
+  /*  */
+}
+
+figure{
+  
+  /*cetner that using margin:auto */
+}
+
+footer{
+  /* image float left and contered on the page. */
+}
