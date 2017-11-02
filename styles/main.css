@@ -71,13 +71,15 @@ body {
 header h1 {
   /*make bigger and color**/
   font-size: 3rem;
-  color: blueviolet;
+  color: RebeccaPurple ;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .main-nav{
   /** chang background color, remove bulltets, border each list nav element, center , float the link, center the content within the links, width on links, font color, **/
-  background-color:blueviolet;
+  background-color:RebeccaPurple;
   list-style: none;
   color: white;
   }
@@ -88,7 +90,7 @@ header h1 {
   text-align: center;
   list-style: none;
   display: inline-block;
-  width: 14.1%;
+  width: 14%;
   height: 2rem;
   padding-top: 1rem;
 }
@@ -103,9 +105,9 @@ aside{
   /**clear the float-both, background color, float-left, clearfloat bothside **/
   clear:both;
   float:left;
-  width: 25%;
-  background-color:plum;
-  height: 30rem;
+  width: 23%;
+  background-color:#C2ADD6;
+  height: 35rem;
   padding-top: 5%;
   display: inline-blockj;
 }
@@ -118,7 +120,7 @@ aside ul {
 }
 
 aside ul li {
-  padding: .5rem;
+  padding: .8rem;
 }
 
 aside ul li a {
@@ -129,16 +131,22 @@ aside ul li a {
 article {
   /*  */
   display: inline-block;
-  width: 75%;
+  width: 77%;
   background-color: gainsboro;
-  height: 30rem;
+  height: 35rem;
   padding-top: 5%;
-  
 }
 
-figure{
-  
+article figure{
+  margin-left: 28rem;
   /*cetner that using margin:auto */
+  margin-bottom: 2rem;
+}
+
+article p{
+   margin-left: 20rem;
+   margin-right: 20rem;
+   text-align: center;
 }
 
 footer{
