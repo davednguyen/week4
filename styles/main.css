@@ -81,6 +81,15 @@ article {
   padding-top: 5%;
 }
 
+article table{
+    margin-left: 29rem;
+}
+
+article table tr th img{
+    width:15rem;
+    height: 15rem;
+}
+
 article figure{
   margin-left: 28rem;
   /*cetner that using margin:auto */
