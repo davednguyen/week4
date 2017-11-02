@@ -1,66 +1,3 @@
-/*
-body{
-  background-color: white;
-}
-header h1{
-  text-align: center;
-  color: purple; 
-  margin: 1rem;
-}
-
-nav ul li{
-  list-style: none;
-  display: inline-block;
-  background-color:purple;  
-  width: 14%;
-  height: 2em;
-  border-style: solid;
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding-top: 1em;
-}
-
-nav ul{
-  width: 100%;
-  background-color: black;
-}
-
-aside{
-   width:2rm;
-   float: left;
-}
-
-aside ul li{
- display: block;
- width:15rem;
- background-color: plum;
- height: 3rem;
- border-style: solid;
- border-bottom-color: white;
- color: white;
- text-align: center;
- padding-top: 1rem;
- float: left;
-}
-
-article {
-  display: inline-block;
-  background-color: aqua;
-  width:auto;
-  align-content: center;
-}
-
-footer{
-  width: 100%;
-  align-content: center;  
-}
-
-footer a{
-  float: left;
-}
-*/
-
 body {
   
   /* change background, and set global font*/
@@ -71,7 +8,7 @@ body {
 header h1 {
   /*make bigger and color**/
   font-size: 3rem;
-  color: RebeccaPurple ;
+  color: #7547A3;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -86,13 +23,16 @@ header h1 {
 
 .main-nav ul li{
   border-bottom-style: solid;
-  border-color:darkmagenta;
   text-align: center;
   list-style: none;
   display: inline-block;
   width: 14%;
   height: 2rem;
   padding-top: 1rem;
+  border-color: black;
+  background-color: #7547A3;
+  border-left-width: 2px;
+  border-right-width: 2px;
 }
 
 .main-nav ul li a{
