@@ -52,6 +52,10 @@ aside{
   display: inline-blockj;
 }
 
+aside p{
+    padding: 5rem;
+}
+
 aside ul {
   /*clear both*/
   clear: both;
