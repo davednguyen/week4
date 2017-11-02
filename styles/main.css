@@ -91,6 +91,16 @@ article table tr th img{
     height: 15rem;
 }
 
+aside table{
+    margin-left: 6rem;
+}
+
+
+aside table tr th img{
+    width:10rem;
+    height: 8rem;
+}
+
 article figure{
   margin-left: 28rem;
   /*cetner that using margin:auto */
