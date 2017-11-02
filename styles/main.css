@@ -1,4 +1,4 @@
-
+/*
 body{
   background-color: white;
 }
@@ -59,32 +59,81 @@ footer{
 footer a{
   float: left;
 }
-
+*/
 
 body {
   
   /* change background, and set global font*/
+  background-color: white;
+  font-family: sans-serif;
 }
 
 header h1 {
   /*make bigger and color**/
-  
+  font-size: 3rem;
+  color: blueviolet;
+  text-align: center;
 }
 
 .main-nav{
   /** chang background color, remove bulltets, border each list nav element, center , float the link, center the content within the links, width on links, font color, **/
+  background-color:blueviolet;
+  list-style: none;
+  color: white;
+  }
+
+.main-nav ul li{
+  border-bottom-style: solid;
+  border-color:darkmagenta;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  width: 14.1%;
+  height: 2rem;
+  padding-top: 1rem;
+}
+
+.main-nav ul li a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
 aside{
   /**clear the float-both, background color, float-left, clearfloat bothside **/
+  clear:both;
+  float:left;
+  width: 25%;
+  background-color:plum;
+  height: 30rem;
+  padding-top: 5%;
+  display: inline-blockj;
 }
 
 aside ul {
   /*clear both*/
+  clear: both;
+  width: auto;
+  text-align: center;
+}
+
+aside ul li {
+  padding: .5rem;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 article {
   /*  */
+  display: inline-block;
+  width: 75%;
+  background-color: gainsboro;
+  height: 30rem;
+  padding-top: 5%;
+  
 }
 
 figure{
@@ -94,4 +143,12 @@ figure{
 
 footer{
   /* image float left and contered on the page. */
+  clear: both;
+  margin: auto;
+  padding-left: 45%;
+  padding-top: 4rem;
+}
+
+footer img{
+  
 }
